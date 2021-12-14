@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: local("ClashDisplay-Regular"),
+    url("./fonts/ClashDisplay-Regular.ttf") format("truetype");
+  font-weight: regular;
+}
