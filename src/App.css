@@ -17,6 +17,7 @@
 
 
 .mainText{
+  float: left;
   max-width: 630px;
   text-align: start;
 }
@@ -28,15 +29,15 @@
 .box{
   margin-left: 6%;
 }
+.box2{
+}
 
 ol{
   list-style: none;
 }
 
 
-.wrapperMenu{
-  text-align: center;
-  display: block;
-  margin-left: 60%;
-  margin-top: -12%;
+.wrapperHome{
+  display: table; 
+	
 }
