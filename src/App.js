@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import 'antd/dist/antd.css';
+import ellipse from './img/Ellipse1.png';
 import { Helmet } from 'react-helmet'
 
 const title = 'Robin Pautigny'
@@ -13,12 +13,11 @@ function App() {
         </Helmet>
       <header className="App-header">
         <div className='wrapperHome'>
-          
-              <div className='box'>
-              <p className='mainText'>
-                  Bonjour, Je suis Robin Pautigny - étudiant en 3ème année à <span className='vert'>Hetic</span>.
-                  Je m’intéresse aux nouvelles technologies, aux voitures ainsi qu’au marketing. Actuellement à la recherche d’un stage en tant que Chef de projet digital.
-                </p>
+          <div className='box'>
+                <p className='mainText'>
+                    Je suis Robin Pautigny - étudiant en 3ème année à <a href='https://hetic.net' target='_blank'><span className='vert'>Hetic</span></a>.
+                    Je m’intéresse aux nouvelles technologies, aux voitures ainsi qu’au marketing. Actuellement à la recherche d’un stage en tant que Chef de projet digital.
+                  </p>
               </div>
               <div className='box2'>
                 <nav className='wrapperMenu'>
@@ -30,6 +29,10 @@ function App() {
                 </nav>
               </div>
         </div>
+        {/* <div>
+          <img src={ellipse}/>
+        </div> */}
+
         
               
       </header>

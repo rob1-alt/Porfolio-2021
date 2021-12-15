@@ -5,20 +5,20 @@
 
 
 .App-header {
+  overflow-x: hidden;
   background-color: #1E1E1E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(18px + 2vmin);
   color: white;
 }
 
 
 
 .mainText{
-  float: left;
-  max-width: 630px;
+  max-width: 620  px;
   text-align: start;
 }
 
@@ -27,15 +27,28 @@
 }
 
 .box{
-  margin-left: 6%;
+  margin-left: 3%;
+  width: 50%;
+  float: left;
+  padding: 10px;
 }
+
 .box2{
+  width: 30%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+  margin-top: -39px;
+  margin-left: 17%;
 }
 
 ol{
   list-style: none;
 }
 
+ol li{
+  margin-top: 40px;
+}
 
 .wrapperHome{
   display: table; 
