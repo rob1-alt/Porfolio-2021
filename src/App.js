@@ -1,9 +1,26 @@
+import { useState, useEffect } from "react";
 import './App.css';
 import 'antd/dist/antd.css';
+import useScreenSize from "./hooks/useScreenSize";
 import ellipse from './img/Ellipse1.png';
 import { Helmet } from 'react-helmet'
 
+
+
 const title = 'Robin Pautigny'
+
+
+/* const screenWidth = useScreenSize().width;
+
+const [disableParallax, setdisableParallax] = useState(false);
+
+useEffect(() => {
+  if (screenWidth <= 1200) {
+    setdisableParallax(true);
+  } else {
+    setdisableParallax(false);
+  }
+}, [screenWidth]); */
 
 function App() {
   return (
@@ -22,9 +39,15 @@ function App() {
               <div className='box2'>
                 <nav className='wrapperMenu'>
                   <ol>
+                    <a href='#'>
                     <li>À propos de moi</li>
+                    </a>
+                    <a href='#'>
                     <li>Projets</li>
+                    </a>
+                    <a href='#'>
                     <li>Contact</li>
+                    </a>
                   </ol>
                 </nav>
               </div>

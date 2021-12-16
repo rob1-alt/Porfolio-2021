@@ -5,20 +5,19 @@
 
 
 .App-header {
-  overflow-x: hidden;
   background-color: #1E1E1E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: calc(18px + 2vmin);
-  color: white;
+  font-size: calc(12px + 2vmin);
+  color: aliceblue;
 }
 
 
 
 .mainText{
-  max-width: 620  px;
+  max-width: 630px;
   text-align: start;
 }
 
@@ -27,30 +26,25 @@
 }
 
 .box{
-  margin-left: 3%;
-  width: 50%;
-  float: left;
-  padding: 10px;
+  margin-left: 6%;
 }
 
-.box2{
-  width: 30%;
-  float: left;
-  padding: 10px;
-  text-align: center;
-  margin-top: -39px;
-  margin-left: 17%;
+li{
+  color: aliceblue;
+  margin-top: 30px;
 }
+
 
 ol{
   list-style: none;
+  text-decoration: none;
+
 }
 
-ol li{
-  margin-top: 40px;
-}
 
-.wrapperHome{
-  display: table; 
-	
+.wrapperMenu{
+  text-align: center;
+  display: block;
+  margin-left: 60%;
+  margin-top: -12%;
 }
