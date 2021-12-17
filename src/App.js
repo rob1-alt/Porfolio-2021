@@ -3,6 +3,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import ellipse from './img/Ellipse1.png';
 import ellipseDown from './img/Ellipse2.png';
+import rectangle from './img/Rectangle6.png';
 import { Helmet } from 'react-helmet'
 
 
@@ -55,10 +56,11 @@ function App() {
         <div  className="wrapperArticle">
           <img classname="ellipse1" src={ellipse}/>
           <div className="articlePart">
-
+            <h3 className="datesTime">2021</h3>
+            <p>Spoty Draft</p>
           </div>
-          <img className="ellipse2" src={ellipseDown}/>
         </div>
+        <img className="ellipse2" src={ellipseDown}/>
       </header>
     </div>
   );

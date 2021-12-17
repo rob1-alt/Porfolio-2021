@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/ClashDisplay-Regular.ttf'
+import './fonts/ClashDisplay-Semibold.ttf'
+import './fonts/ClashDisplay-Bold.ttf'
+import './fonts/ClashDisplay-Medium.ttf'
+import './fonts/ClashDisplay-Light.ttf'
+import './fonts/ClashDisplay-Extralight.ttf'
 
 
 

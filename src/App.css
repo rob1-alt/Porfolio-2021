@@ -3,16 +3,22 @@
   /*========== Colors ==========*/
   --hetic-color : #26E8A0;
   --bg-color : #1E1E1E;
+  --text-color: #f0f8ff;
   /*========== Fonts ==========*/
-  --body-font : 'ClashDisplay-Regular', sans-serif;
-}
+  --body-font-regular : 'ClashDisplay-Regular', sans-serif;
+  --body-font-light: 'ClashDisplay-Light', sans-serif;
+  --body-font-extraLight : 'ClashDisplay-Extralight', sans-serif;
+  --body-font-bold : 'ClashDisplay-Bold', sans-serif;
+  --body-font-medium : 'ClashDisplay-Medium', sans-serif;
+  --body-font-semiBold : 'ClashDisplay-Semibold', sans-serif;
 
+
+  
+}
 
 .App {
-  font-family:var(--body-font);
+  font-family:var(--body-font-regular);
 }
-
-
 
 .App-header {
   background-color: var(--bg-color);
@@ -23,8 +29,6 @@
   color: aliceblue;
   padding-top: 9em;
 }
-
-
 
 .mainText{
   max-width: 630px;
@@ -39,11 +43,11 @@
   margin-left: 6%;
 }
 
+
 li{
   color: aliceblue;
   margin-top: 30px;
 }
-
 
 ol{
   list-style: none;
@@ -51,12 +55,11 @@ ol{
 
 }
 
-
 .wrapperMenu{
   text-align: center;
   display: block;
   margin-left: 60%;
-  margin-top: -12%;
+  margin-top: -15%;
 }
 
 .wrapperArticle {
@@ -64,15 +67,25 @@ ol{
 }
 
 .articlePart{
+  z-index: 99;
   margin-left: 130px;
   margin-top: -240px;
-  background: #BCBCBC;
-  opacity: 0.1;
-  filter: blur(3px);
+  background: rgba(188, 188, 188, 0.05);
+  backdrop-filter: blur(99px);
   border-radius: 20px;
   width: 85%;
   height: 600px;
 }
 
+.datesTime{
+  color: var(--text-color);
+  font: var(--body-font-bold);
+  padding-left:1.1em;
+  padding-top: 0.6em;
+}
+
 .ellipse2{
+  z-index: 0;
+  margin-left: 74%;
+  margin-top: -14%;
 }
