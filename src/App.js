@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import './App.css';
 import 'antd/dist/antd.css';
-import useScreenSize from "./hooks/useScreenSize";
 import ellipse from './img/Ellipse1.png';
+import ellipseDown from './img/Ellipse2.png';
 import { Helmet } from 'react-helmet'
 
 
@@ -42,7 +42,7 @@ function App() {
                     <a href='#'>
                     <li>À propos de moi</li>
                     </a>
-                    <a href='#'>
+                    <a href='1'>
                     <li>Projets</li>
                     </a>
                     <a href='#'>
@@ -52,12 +52,13 @@ function App() {
                 </nav>
               </div>
         </div>
-        {/* <div>
-          <img src={ellipse}/>
-        </div> */}
+        <div  className="wrapperArticle">
+          <img classname="ellipse1" src={ellipse}/>
+          <div className="articlePart">
 
-        
-              
+          </div>
+          <img className="ellipse2" src={ellipseDown}/>
+        </div>
       </header>
     </div>
   );

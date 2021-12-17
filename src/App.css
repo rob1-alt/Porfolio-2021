@@ -1,17 +1,27 @@
+:root{
+
+  /*========== Colors ==========*/
+  --hetic-color : #26E8A0;
+  --bg-color : #1E1E1E;
+  /*========== Fonts ==========*/
+  --body-font : 'ClashDisplay-Regular', sans-serif;
+}
+
+
 .App {
-  font-family: "ClashDisplay-Regular";
+  font-family:var(--body-font);
 }
 
 
 
 .App-header {
-  background-color: #1E1E1E;
-  min-height: 100vh;
-  display: flex;
+  background-color: var(--bg-color);
+  min-height: 105vh;
   flex-direction: column;
   justify-content: center;
   font-size: calc(12px + 2vmin);
   color: aliceblue;
+  padding-top: 9em;
 }
 
 
@@ -22,7 +32,7 @@
 }
 
 .vert{
-  color: #26E8A0;
+  color:var(--hetic-color);
 }
 
 .box{
@@ -47,4 +57,22 @@ ol{
   display: block;
   margin-left: 60%;
   margin-top: -12%;
+}
+
+.wrapperArticle {
+  margin-top: 14em;
+}
+
+.articlePart{
+  margin-left: 130px;
+  margin-top: -240px;
+  background: #BCBCBC;
+  opacity: 0.1;
+  filter: blur(3px);
+  border-radius: 20px;
+  width: 85%;
+  height: 600px;
+}
+
+.ellipse2{
 }
