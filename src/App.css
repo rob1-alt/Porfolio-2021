@@ -1,91 +1,57 @@
 :root{
 
   /*========== Colors ==========*/
-  --hetic-color : #26E8A0;
-  --bg-color : #1E1E1E;
-  --text-color: #f0f8ff;
-  /*========== Fonts ==========*/
-  --body-font-regular : 'ClashDisplay-Regular', sans-serif;
-  --body-font-light: 'ClashDisplay-Light', sans-serif;
-  --body-font-extraLight : 'ClashDisplay-Extralight', sans-serif;
-  --body-font-bold : 'ClashDisplay-Bold', sans-serif;
-  --body-font-medium : 'ClashDisplay-Medium', sans-serif;
-  --body-font-semiBold : 'ClashDisplay-Semibold', sans-serif;
-
-
   
-}
-
-.App {
-  font-family:var(--body-font-regular);
-}
-
-.App-header {
-  background-color: var(--bg-color);
-  min-height: 105vh;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(12px + 2vmin);
-  color: aliceblue;
-  padding-top: 9em;
-}
-
-.mainText{
-  max-width: 630px;
-  text-align: start;
-}
-
-.vert{
-  color:var(--hetic-color);
-}
-
-.box{
-  margin-left: 6%;
-}
+  --hetic-color : #26E8A0;
+  
+  --bg-color : #1E1E1E;
+  
+  --text-color: #f0f8ff;
+  
+  /*========== Fonts ==========*/
+  
+  --body-font-regular : 'ClashDisplay-Regular', sans-serif;
+  
+  --body-font-light: 'ClashDisplay-Light', sans-serif;
+  
+  --body-font-extraLight : 'ClashDisplay-Extralight', sans-serif;
+  
+  --body-font-bold : 'ClashDisplay-Bold', sans-serif;
+  
+  --body-font-medium : 'ClashDisplay-Medium', sans-serif;
+  
+  --body-font-semiBold : 'ClashDisplay-Semibold', sans-serif;
+  
+  }
 
 
-li{
-  color: aliceblue;
-  margin-top: 30px;
-}
+  .App-header{
+    font-family: var(--body-font-regular);
+    position: absolute;
+    background-color: var(--bg-color);
+    height: calc(100% + 10vh);
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(12px + 2vmin);
+    color: aliceblue;
+    padding-top: 9em;
+  }
 
-ol{
-  list-style: none;
-  text-decoration: none;
+  ::selection{
+    background-color: #444;
+    color: white;
+  }
+  
+  /* Firefox */
+  ::-moz-selection {
+    background-color: #444;
+    color: white;
+  }
 
-}
+  .description{
+    color: var(--text-color);
+  }
 
-.wrapperMenu{
-  text-align: center;
-  display: block;
-  margin-left: 60%;
-  margin-top: -15%;
-}
-
-.wrapperArticle {
-  margin-top: 14em;
-}
-
-.articlePart{
-  z-index: 99;
-  margin-left: 130px;
-  margin-top: -240px;
-  background: rgba(188, 188, 188, 0.05);
-  backdrop-filter: blur(99px);
-  border-radius: 20px;
-  width: 85%;
-  height: 600px;
-}
-
-.datesTime{
-  color: var(--text-color);
-  font: var(--body-font-bold);
-  padding-left:1.1em;
-  padding-top: 0.6em;
-}
-
-.ellipse2{
-  z-index: 0;
-  margin-left: 74%;
-  margin-top: -14%;
-}
+  .heticSchool{
+    color: var(--hetic-color);
+  }
