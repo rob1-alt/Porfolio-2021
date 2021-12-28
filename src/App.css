@@ -27,9 +27,8 @@
 
   .App-header{
     font-family: var(--body-font-regular);
-    position: absolute;
     background-color: var(--bg-color);
-    height: calc(100% + 10vh);
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
     font-size: calc(12px + 2vmin);
@@ -37,19 +36,9 @@
     padding-top: 9em;
   }
 
-  ::selection{
-    background-color: #444;
-    color: white;
-  }
-  
-  /* Firefox */
-  ::-moz-selection {
-    background-color: #444;
-    color: white;
-  }
-
   .description{
     color: var(--text-color);
+    max-width: 55vw;
   }
 
   .heticSchool{

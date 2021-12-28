@@ -16,17 +16,6 @@ import { Helmet } from 'react-helmet'
 const title = 'Robin Pautigny 🛠'
 
 
-/* const screenWidth = useScreenSize().width;
-
-const [disableParallax, setdisableParallax] = useState(false);
-
-useEffect(() => {
-  if (screenWidth <= 1200) {
-    setdisableParallax(true);
-  } else {
-    setdisableParallax(false);
-  }
-}, [screenWidth]); */
 
 function App() {
   return (
