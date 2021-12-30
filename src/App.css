@@ -37,6 +37,7 @@
   }
 
   .description{
+    padding: 4vw;
     color: var(--text-color);
     max-width: 55vw;
   }
