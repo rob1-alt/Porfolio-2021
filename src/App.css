@@ -44,3 +44,16 @@
   .heticSchool{
     color: var(--hetic-color);
   }
+
+@media screen and (max-width:640px) {
+
+  .description{
+    max-width: calc(1000px);
+    margin-top: -20vw;
+    padding: 30px;
+  }
+  p{
+    justify-content: center;
+    font-size: 0.9em;
+  }
+}
