@@ -46,6 +46,8 @@
     color: var(--hetic-color);
   }
 
+
+/*RESPONSIVE DESIGN OF MY WEBSITE */
 @media screen and (max-width:640px) {
 
   .description{
@@ -58,3 +60,42 @@
     font-size: 0.9em;
   }
 }
+
+.bm-burger-bars {
+  background: #8c8e94;
+  border-radius:20px ;
+  height: 3px;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  top: -36vw;
+  right: 9vw;
+
+}
+
+
+::selection{
+  background: #000;
+}
+
+.bm-menu-wrap {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: black;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
